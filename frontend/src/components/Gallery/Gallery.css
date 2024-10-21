@@ -1,0 +1,41 @@
+.gallery-section {
+    padding: 60px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adds space between grid items */
+}
+
+.gs-item {
+    position: relative;
+    width: calc(33.33% - 10px); /* Three items per row */
+    height: 300px; /* Set a fixed height */
+    background-size: cover;
+    background-position: center;
+}
+
+.gs-item.grid-wide {
+    width: calc(66.66% - 10px); /* Make grid-wide items span two columns */
+}
+
+.thumb-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.gs-item:hover .thumb-icon {
+    opacity: 1;
+}
+
+/* Optional: Add some hover effect for better visual interaction */
+.gs-item:hover {
+    filter: brightness(0.8);
+}

@@ -1,0 +1,49 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(15, 12, 12);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #fbf7f7; /* Optional: Background color for contrast */
+  }
+  
+  .video-container {
+    width: 100%; /* Full width */
+    max-width: 800px; /* Set a maximum width */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .error-video {
+    width: 700px; /* Full width */
+    height: 500px;
+    margin-top: 10px; /* Maintain aspect ratio */
+  }
+  
+  .error-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Space above the content */
+  }
+  
+  .home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

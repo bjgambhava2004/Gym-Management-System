@@ -1,0 +1,165 @@
+.pricing-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .pricing-options {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pricing-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .payment-container {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .payment-methods button {
+    margin: 10px;
+  }
+  
+  .qr-scanner {
+    margin-top: 20px;
+  }
+  
+  .payment-actions {
+    margin-top: 20px;
+  }
+  
+  .pricing-section {
+    padding: 60px 0;
+    background: #f8f9fa; /* Change as needed */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    display: block;
+    font-size: 18px;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #343a40;
+}
+
+.ps-item {
+    padding: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.ps-item:hover {
+    transform: translateY(-10px);
+}
+
+.pi-price {
+    margin: 20px 0;
+}
+
+.pi-price h2 {
+    font-size: 32px;
+    color: #007bff; /* Change price color */
+}
+
+.pi-price span {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.ps-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ps-item ul li {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #343a40; /* Change as needed */
+}
+
+.pricing-btn {
+    margin-top: 20px;
+}
+
+/* Subscribe.css */
+
+.payment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.payment-form {
+  margin-left: 400px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.payment-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+  background-color: #0056b3;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}

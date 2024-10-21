@@ -1,0 +1,98 @@
+.team-section {
+    padding: 60px 0;
+}
+
+.team-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-title .section-title span {
+    display: block;
+    font-size: 18px;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+
+.team-title .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #343a40;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.ts-item {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    width: 300px;  /* Adjust width as needed */
+    margin: 0 10px; /* Spacing between items */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.ts-item:hover {
+    transform: scale(1.05);
+}
+
+.ts_text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ts_text h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.ts_text span {
+    font-size: 14px;
+}
+
+.carousel-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .team-title .section-title h2 {
+        font-size: 28px;
+    }
+
+    .carousel-btn {
+        padding: 8px 12px;
+    }
+
+    .ts-item {
+        width: 150px; /* Smaller width on mobile */
+    }
+}

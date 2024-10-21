@@ -1,0 +1,57 @@
+.choseus-section {
+    padding: 60px 0;
+    background: #f8f9fa; /* Change this to your desired background color */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    display: block;
+    font-size: 18px;
+    color: #6c757d; /* Change this color as needed */
+    text-transform: uppercase;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #343a40; /* Change this color as needed */
+}
+
+.cs-item {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #e2e2e2; /* Optional border */
+    border-radius: 5px;
+    background: #ffffff; /* Change this to your desired card background color */
+    transition: transform 0.3s ease;
+    height: 200px;
+}
+
+.cs-item:hover {
+    transform: translateY(-15px);
+    border-color: #343a40;
+}
+
+.cs-item span {
+    display: block;
+    font-size: 48px; /* Adjust icon size */
+    color: #007bff; /* Change icon color */
+    margin-bottom: 15px;
+}
+
+.cs-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #343a40; /* Change this color as needed */
+}
+
+.cs-item p {
+    font-size: 16px;
+    color: #6c757d; /* Change this color as needed */
+}

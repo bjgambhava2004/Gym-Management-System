@@ -1,0 +1,98 @@
+.header-section {
+  background-color: #f1eeee;
+  padding: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-menu ul li {
+  margin-right: 30px;
+  position: relative;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #ffffff; /* Change link color to white */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li.active a {
+   color: #f96332; /* Hover and active link color */
+}
+
+.nav-menu ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #130e0e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  list-style: none;
+}
+
+.nav-menu ul li:hover ul.dropdown {
+  display: block; /* Show dropdown on hover */
+}
+
+.nav-menu ul li ul.dropdown li a {
+  color: #f5efef; /* Dropdown link color */
+}
+
+.d-flex {
+  margin-left: auto; /* Align login button to the right */
+}
+
+.login-link a {
+  text-decoration: none;
+  color: #ffffff; /* Change login link color to white */
+  padding: 10px 15px;
+  background-color: transparent; /* Make it transparent initially */
+  border: 2px solid transparent; /* Add a border for hover effect */
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px; /* Match font size */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.login-link a:hover {
+  background-color: #f96332; /* Match the hover color of nav links */
+  color: #ffffff; /* Change text color on hover */
+  border-color: #f96332; /* Add border color on hover */
+}
+
+.btn{
+  border-color: #dc3545;
+  color: #dc3545;
+}
+.btn:hover {
+  background-color: #dc3545;
+  color: rgb(231, 39, 39);
+}
+
+.Subscrib{
+  color: #f8f5f4;
+}
+.Subscrib:hover{
+  color: #f96332;
+}

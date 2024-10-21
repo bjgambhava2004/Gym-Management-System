@@ -1,0 +1,87 @@
+.footer-section {
+    padding: 50px 0;
+    background: #000000;
+  }
+  
+  .fs-about .fa-logo img {
+    max-width: 150px;
+  }
+  
+  .fs-about p {
+    margin: 20px 0;
+    color: #777;
+    font-size: 15px;
+  }
+  
+  .fa-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #777;
+    font-size: 18px;
+  }
+  
+  .fa-social a:hover {
+    color: #333;
+  }
+  
+  .fs-widget h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .fs-widget ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fs-widget ul li {
+    margin-bottom: 10px;
+  }
+  
+  .fs-widget ul li a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .fs-widget ul li a:hover {
+    color: #333;
+  }
+  
+  .fw-recent h6 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .fw-recent h6 a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .fw-recent h6 a:hover {
+    color: #777;
+  }
+  
+  .fw-recent ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .copyright-text {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .copyright-text a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .copyright-text a:hover {
+    color: #777;
+  }
+  

@@ -1,0 +1,197 @@
+/* Set body background color */
+body {
+    background-color: #f7f7f7 !important; /* Light gray background */
+    margin: 0; /* Remove default margin */
+}
+
+
+/* General styling for the exercise page */
+.exercise-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header section for search and filter */
+.exercise-page__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white; /* Background for the search bar */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners for input */
+    font-size: 16px;
+    width: 250px; /* Set a fixed width */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.search-container button,
+.search-container select {
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners for buttons and select */
+    padding: 10px 15px; /* Padding for buttons */
+    background-color: #cfd1cf; /* Button color */
+    color: rgb(31, 30, 30); /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-container button:hover {
+    background-color: #4f504f; /* Darker green on hover */
+}
+
+.search-container select {
+    margin-left: 10px; /* Space before select */
+    border: none; /* Remove border for select */
+    border-radius: 20px; /* Rounded corners for select */
+    padding: 10px; /* Padding for select */
+    background-color: #cfd1cf; /* Match button color */
+    color: rgb(31, 30, 30); /* Text color for select */
+}
+
+  
+  
+  /* Styling for the list of exercise cards */
+  .exercise-page__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+.exercise-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 350px; /* Fixed width */
+}
+
+.exercise-card:hover {
+    transform: scale(1.05);
+}
+
+.exercise-card__image {
+    width: 100%; /* Full width */
+    height: 350px; /* Fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.exercise-card__name {
+    text-align: center;
+    margin: 10px 0;
+    position: relative; /* Change to relative to keep it in flow */
+}
+
+.exercise-card__details {
+    position: absolute;
+    bottom: -100%; /* Start off the card */
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    transition: bottom 0.3s ease; /* Smooth transition */
+}
+
+.exercise-card:hover .exercise-card__details {
+    bottom: 0; /* Move into view */
+}
+
+
+
+  
+
+  /* Pagination buttons */
+  .exercise-page__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .exercise-page__pagination button {
+    background-color: #007bff; /* Blue for pagination buttons */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exercise-page__pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .exercise-page__pagination button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  .exercise-card__details p {
+    margin-bottom: 10px; /* Adjust spacing as needed */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .exercise-page__header {
+      flex-direction: column;
+    }
+  
+    .exercise-page__header input[type="text"], 
+    .exercise-page__header select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .exercise-page__list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+  .centered-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    color: white; /* Change as per your design */
+    background-color: #333; /* Optional: dark background for contrast */
+  }
+  
+  .home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

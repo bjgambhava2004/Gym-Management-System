@@ -1,0 +1,66 @@
+.pricing-section {
+    padding: 60px 0;
+    background: #f8f9fa; /* Change as needed */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    display: block;
+    font-size: 18px;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #343a40;
+}
+
+.ps-item {
+    background: #ffffff; /* Change card background as needed */
+    padding: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.ps-item:hover {
+    transform: translateY(-10px);
+    border-color: #343a40;
+}
+
+.pi-price {
+    margin: 20px 0;
+}
+
+.pi-price h2 {
+    font-size: 32px;
+    color: #007bff; /* Change price color */
+}
+
+.pi-price span {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.ps-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ps-item ul li {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #343a40; /* Change as needed */
+}
+
+.pricing-btn {
+    margin-top: 20px;
+}

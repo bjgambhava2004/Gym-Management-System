@@ -1,0 +1,222 @@
+/* General Styling */
+.profile-edit-home-tab-content {
+  background-color: #f0f4f8;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.profile-edit-home-title{
+  margin-top: 20px;
+}
+
+.profile-edit-home-h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Display Information */
+.profile-edit-home-display-information {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Change Photo Section */
+.profile-edit-home-change-photo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-edit-home-user-image img {
+  max-width: 130px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-edit-home-upload-photo {
+  display: flex;
+  align-items: center;
+}
+
+.profile-edit-home-upload-photo label {
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.profile-edit-home-upload-photo label:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-edit-home-upload-photo input {
+  display: none;
+}
+
+.profile-edit-home-upload-photo span {
+  color: #7f8c8d;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* Account Details */
+.profile-edit-home-account-details {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-edit-home-account-details li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e1e8ed;
+  color: #2c3e50;
+}
+
+.profile-edit-home-account-details li span {
+  color: #95a5a6;
+}
+
+/* Buttons */
+.profile-edit-home-button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.profile-edit-home-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.profile-edit-home-btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.profile-edit-home-btn-primary:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.profile-edit-home-btn-secondary {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.profile-edit-home-btn-secondary:hover {
+  background-color: #7f8c8d;
+  transform: scale(1.05);
+}
+
+/* Social Links */
+.profile-edit-home-social-links {
+  margin-top: 20px;
+}
+
+.profile-edit-home-social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-edit-home-social-links li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-edit-home-social-links a {
+  margin-top: 20px;
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-right: 15px; /* Adjust margin between social links */
+}
+
+.profile-edit-home-social-links a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .profile-edit-home-change-photo .profile-edit-home-user-image img {
+    max-width: 90px;
+  }
+
+  .profile-edit-home-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+.profile-edit-home-editing-only {
+  display: none;
+}
+
+.profile-edit-home-editing .profile-edit-home-editing-only {
+  display: block;
+}
+
+/* Stats Display */
+.profile-edit-home-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-edit-home-stat-item {
+  text-align: center;
+}
+
+.profile-edit-home-stat-count {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.profile-edit-home-stat-label {
+  font-size: 14px;
+  color: #95a5a6;
+}
+.profile-edit-home-stat-icon-container {
+  position: relative;
+  display: inline-block;
+  border: 2px solid transparent; /* Initial border */
+  transition: border 0.3s ease; /* Smooth border transition */
+}
+
+.profile-edit-home-stat-icon-container:hover {
+  border-color: #007bff; /* Border color on hover */
+}
+
+.profile-edit-home-stat-icon {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  transition: transform 0.3s ease;
+}
+
+.profile-edit-home-stat-icon.flip-icon {
+  transform: scaleX(-1); /* Flip the icon horizontally */
+}

@@ -1,0 +1,96 @@
+.bmi-calculator-section {
+    padding: 60px 0;
+    background: #f8f8f8;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.chart-title span,
+.chart-calculate-title span {
+    display: block;
+    font-size: 16px;
+    color: #999;
+}
+
+.chart-title h2,
+.chart-calculate-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.chart-table {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.chart-table th,
+.chart-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.chart-table th {
+    background: #f1f1f1;
+}
+
+.chart-calculate-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chart-calculate-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chart-calculate-form button:hover {
+    background: #0056b3;
+}
+
+.height-feet-inches {
+    display: flex;
+    justify-content: space-between;
+}
+
+.height-feet-inches input {
+    width: 48%;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.result h4 {
+    font-size: 20px;
+    color: #666;
+}

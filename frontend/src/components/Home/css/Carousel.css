@@ -1,0 +1,70 @@
+/* Carousel.css */
+
+/* Styling for the carousel captions */
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(0);
+    text-align: left;
+    padding: 10px 20px;
+    color: white;
+    
+}
+  
+  /* Make the caption visible when the item is active */
+  .carousel-item.active .carousel-caption {
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Slide up effect */
+  }
+  
+  /* Styling for text within the captions */
+  .carousel-caption h5,
+  .carousel-caption p {
+    margin: 0;
+    /* Optional text shadow for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    opacity: 0; /* Start hidden for animation */
+    animation: fadeInUp 0.5s forwards; /* Apply animation */
+  }
+  
+  /* Animation for fading and sliding up text */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Start from below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* End at the normal position */
+    }
+  }
+  
+  /* Staggered animation for sequential appearance */
+  .carousel-caption h5 {
+    animation-delay: 0.2s; /* Delay for h5 */
+  }
+  
+  .carousel-caption p {
+    animation-delay: 0.4s; /* Delay for p */
+  }
+  
+  /* Position the indicators */
+  .carousel-indicators {
+    bottom: 20px; /* Adjust this value to place the indicators further down or up */
+    left: 20px; 
+  }
+  
+  .carousel-indicators button {
+    background-color: #fff; /* Color of the inactive dots */
+    border-radius: 50%; /* Make the dots round */
+    width: 12px; /* Size of the dots */
+    height: 12px; /* Size of the dots */
+    opacity: 0.5; /* Slightly transparent for inactive dots */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff; /* Color of the active dot */
+    opacity: 1; /* Full opacity for the active dot */
+  }
+  

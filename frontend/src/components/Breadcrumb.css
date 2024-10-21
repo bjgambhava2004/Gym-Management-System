@@ -1,0 +1,30 @@
+.breadcrumb-section {
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.breadcrumb-text {
+    color: #f8f6f6;
+}
+
+.breadcrumb-text h1 {
+    margin-top: 130px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.bt-option {
+    font-size: 30px;
+}
+
+.bt-option a {
+    color: #f5f1f1;
+    text-decoration: none;
+}
+
+.bt-option span {
+    color: #faf8f8;
+}
